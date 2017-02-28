@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		074214FE1E656EE100E01C95 /* MyStaticLibraryDM.m in Sources */ = {isa = PBXBuildFile; fileRef = 074214FD1E656EE100E01C95 /* MyStaticLibraryDM.m */; };
 		074214FF1E656EE100E01C95 /* MyStaticLibraryDM.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 074214FC1E656EE100E01C95 /* MyStaticLibraryDM.h */; };
+		0742150A1E65750900E01C95 /* ssssViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074215081E65750900E01C95 /* ssssViewController.m */; };
+		0742150B1E6575D800E01C95 /* ssssViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 074215071E65750900E01C95 /* ssssViewController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,8 @@
 		074214F91E656EE100E01C95 /* libMyStaticLibraryDM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyStaticLibraryDM.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		074214FC1E656EE100E01C95 /* MyStaticLibraryDM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyStaticLibraryDM.h; sourceTree = "<group>"; };
 		074214FD1E656EE100E01C95 /* MyStaticLibraryDM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyStaticLibraryDM.m; sourceTree = "<group>"; };
+		074215071E65750900E01C95 /* ssssViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssssViewController.h; sourceTree = "<group>"; };
+		074215081E65750900E01C95 /* ssssViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ssssViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +66,24 @@
 			children = (
 				074214FC1E656EE100E01C95 /* MyStaticLibraryDM.h */,
 				074214FD1E656EE100E01C95 /* MyStaticLibraryDM.m */,
+				074215071E65750900E01C95 /* ssssViewController.h */,
+				074215081E65750900E01C95 /* ssssViewController.m */,
 			);
 			path = MyStaticLibraryDM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		074215051E65747400E01C95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0742150B1E6575D800E01C95 /* ssssViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		074214F81E656EE100E01C95 /* MyStaticLibraryDM */ = {
@@ -76,6 +93,7 @@
 				074214F51E656EE100E01C95 /* Sources */,
 				074214F61E656EE100E01C95 /* Frameworks */,
 				074214F71E656EE100E01C95 /* CopyFiles */,
+				074215051E65747400E01C95 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -123,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0742150A1E65750900E01C95 /* ssssViewController.m in Sources */,
 				074214FE1E656EE100E01C95 /* MyStaticLibraryDM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
